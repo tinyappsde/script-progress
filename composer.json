@@ -1,0 +1,21 @@
+{
+	"name": "tinyapps/script-progress",
+	"description": "Super simple library for live-updating php-cli script progress output with estimated time that is left.",
+	"type": "library",
+	"version": "1.0.0",
+	"require": {
+		"php": ">=7.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TinyApps\\ScriptProgress\\": "src/"
+		}
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dion Purushotham",
+			"email": "hello@tinyapps.de"
+		}
+	]
+}
