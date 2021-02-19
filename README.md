@@ -1,9 +1,10 @@
 # Script Progress
-This is a super simple library for php-cli script progress output. It’s easy-to-use and can print the estimated time that is left until your script is done.
+This is a super simple library for php-cli script progress output. It’s easy-to-use and can print the estimated time that is left until your script is done. You always now if your script is still doing something or might be stuck – and when it will approximately finish.
 
-`20% done. Appr. 00m 16s remaining.`
+Example output: `20% done. Appr. 02m 16s remaining.` – That’s it.
 
-That’s it.
+## Installation
+`composer require tinyapps/script-progress`
 
 ## Example Usage
 ```php
