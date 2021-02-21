@@ -1,5 +1,5 @@
 # Script Progress
-This is a super simple library for php-cli script progress output. It’s easy-to-use and can print the estimated time that is left until your script is done. You always now if your script is still doing something or might be stuck – and when it will approximately finish.
+This is a super simple library for php-cli script progress output. It’s easy-to-use and can print the estimated time that is left until your script is done. You always know if your script is still doing something or might be stuck – and when it will approximately finish.
 
 Example output: `20% done. Appr. 02m 16s remaining.` – That’s it.
 
@@ -17,6 +17,6 @@ for ($i=0; $i <= $numberOfItems; $i++) {
 }
 ```
 
-There also is an example in the corresponding folder.
+There is also an example in the corresponding folder.
 
-More features might be added soon.
+More features will be added soon.
