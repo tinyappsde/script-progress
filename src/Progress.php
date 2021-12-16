@@ -52,12 +52,12 @@ class Progress {
 			$averageTimeEach = $timePassed / $done;
 			$timeRemaining = $averageTimeEach * ($this->total - $done);
 			$minutesRemaining = floor($timeRemaining / 60);
-			$secondsRemaining = floor($timeRemaining % 60);
+			$secondsRemaining = floor($timeRemaining) % 60;
 
 			$percentage = floor(($done / $this->total) * 100);
 
 			echo "\r";
-			echo  ($percentage < 10 ? '0' . $percentage : $percentage) . '% done. ';
+			echo ($percentage < 10 ? '0' . $percentage : $percentage) . '% done. ';
 			echo 'Appr. ' . ($minutesRemaining > 9 ? $minutesRemaining : '0' . $minutesRemaining) . 'm ' . ($secondsRemaining > 9 ? $secondsRemaining : '0' . $secondsRemaining) . 's remaining.  ';
 		}
 	}
